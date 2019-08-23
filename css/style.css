@@ -165,7 +165,7 @@ li:hover .btn_nav_header {
 .over-title-section {
     color: rgb(70, 47, 151);
     font-size: 30px;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', cursive;
     display: inline-block;
     margin-bottom: 20px;
 }
@@ -294,15 +294,16 @@ li:hover .btn_nav_header {
     position: relative;
 }
 
-.col_team:hover {
-    transform: translate(-2px, -2px);
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
 
 
 .team_face {
     width: 300px;
     margin-bottom: 20px;
+    transition: all .3s;
+}
+.team_face:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 

@@ -223,7 +223,7 @@ li:hover .btn_nav_header {
     }
     .title_about {
         text-align: center;
-        padding-top: 30px;
+        padding-top: 47px;
     }
     .title-section::after {
         margin-left: auto;
@@ -233,6 +233,7 @@ li:hover .btn_nav_header {
         font-size: 30px;
     }
     .main_content_abou_us {
+        padding-top: 20px;
         height: 500px;
     }
  
@@ -395,7 +396,8 @@ li:hover .btn_nav_header {
     }
 }
 
-@media(max-width: 573px){
+@media(max-width: 590px){
+
     .title_descr {
         font-size: 30px;
     }
@@ -403,7 +405,7 @@ li:hover .btn_nav_header {
         padding-right: 0px;
     }
     .column_about_right {
-        width: 100%
+        display: none;
     }
     .main_content_team {
         flex-direction: column

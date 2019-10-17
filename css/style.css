@@ -213,6 +213,8 @@ li:hover .btn_nav_header {
 @media(max-width: 590px){
     .containret_about_us {
         flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .column_about_left {
         width: 100%;
@@ -395,9 +397,19 @@ li:hover .btn_nav_header {
         color: #fff
     }
 }
+@media(max-width: 800px){
 
+    .descr_about_us, .section-title {
+        padding-right: 50px;
+    }
+}
 @media(max-width: 590px){
-
+    .section-title {
+        padding-right: 0;
+    }
+    .carousel_about {
+        width: 100%;
+    }
     .title_descr {
         font-size: 30px;
     }
@@ -576,7 +588,6 @@ li:hover .btn_nav_header {
 
 .carousel {
     margin: 0 auto;
-    width: 400px;
 }
 
 .title_class {
@@ -606,7 +617,6 @@ li:hover .btn_nav_header {
     font-family: 'Kaushan Script', cursive;
     text-align: center;
     position: absolute;
-    z-index: 2;
     color: #fff;
     left: 50%;
     transform: auto;
@@ -728,6 +738,7 @@ li:hover .btn_nav_header {
 }
 
 @media(min-width: 899px){
+    
     .main_content_reviews {
         margin: 0 auto;
         width: 900px;
@@ -816,14 +827,13 @@ footer {
     z-index: 999;
 }
 
-.carousel_about {
-    width: 50vw;
+
+
+@media(min-width: 1200px){
+    .main_content_team {
+        padding-top: 50px;
+    }
 }
-
-
-
-
-
 
 
 

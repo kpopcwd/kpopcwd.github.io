@@ -1,7 +1,7 @@
 $('.btn_active_modal_window').on('click', () => console.log('clicked!'))
 
 window.onload = function(){
-  const btnCloseOne = document.querySelector('.close_foto_one')
+
   const btnCloseTwo = document.querySelector('.close_foto_two')
   const btnCloseThree = document.querySelector('.close_foto_three')
   const btnCloseFour = document.querySelector('.close_foto_four')
@@ -47,14 +47,9 @@ window.onload = function(){
   
 
 
-  btnCloseOne.onclick = function (){
-    const openWindow = document.querySelector('.class_one_foto')
-    openWindow.classList.remove('act_class_foto');
-    mainContentPortfolio.style.display = 'flex'
-  }
-
   btnCloseTwo.onclick = function (){
     const openWindow = document.querySelector('.class_two_foto')
+    console.log('111')
     openWindow.classList.remove('act_class_foto');
     mainContentPortfolio.style.display = 'flex'
   }

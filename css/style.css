@@ -871,6 +871,12 @@ footer {
 }
 
 
+.item_class_one {
+    pointer-events: none;
+    cursor: default;
+}
+
+
 
 
 
